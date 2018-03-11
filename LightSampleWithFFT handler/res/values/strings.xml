@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="app_name">LightSampleWithFFT</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_sensor">LightSampleWithFFT</string>
+    <string name="sure">读取数据</string>
+    <string name="save">开始记录数据</string>
+    <string name="pause">暂停并保存数据</string>
+    <string name="clear">删除该样本</string>
+    <string name="normal">普通</string>
+    <string name="game">游戏</string>
+    <string name="ui">界面</string>
+    <string name="fast">最快</string>
+    
+</resources>

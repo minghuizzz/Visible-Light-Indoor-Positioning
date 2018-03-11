@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!--
+         <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Accelerometer" />
+
+    <TextView
+        android:id="@+id/xbox"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="X Value" />
+
+    <TextView
+        android:id="@+id/ybox"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Y Value" />
+
+    <TextView
+        android:id="@+id/zbox"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Z Value" />
+    -->
+
+<!--     <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Orientation" />
+
+    <TextView
+        android:id="@+id/xboxo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="X Value" />
+
+    <TextView
+        android:id="@+id/yboxo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Y Value" />
+
+    <TextView
+        android:id="@+id/zboxo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Z Value" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Ligth" />
+
+    <TextView
+        android:id="@+id/light"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="light Value" /> -->
+    <TextView
+        android:id="@+id/sensordata_tv"
+        android:layout_width="fill_parent"
+        android:layout_height="100sp"
+        android:text="sensordata" />
+    <TextView
+        android:id="@+id/rate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="sample rate:" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/loaction_x"
+            android:layout_width="158dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="位置坐标X"
+            android:inputType="number"
+            android:text="1" />
+
+        <requestFocus />
+
+        <EditText
+            android:id="@+id/location_y"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="位置坐标Y"
+            android:inputType="number"
+            android:text="1" >
+        </EditText>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/samplesize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="样本大小"
+        android:inputType="number"
+        android:text="512" />
+
+    <Button
+        android:id="@+id/savebutton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save" />
+
+    <!--
+         <Button
+        android:id="@+id/pausebutton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pause" />
+    -->
+
+    <Button
+        android:id="@+id/clearbutton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/clear" />
+
+    <!--
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Spinner
+            android:id="@+id/spinner1_action"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Spinner
+            android:id="@+id/spinner1_state"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    -->
+
+<!--     <TextView
+        android:id="@+id/maxfftid_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="max value and id" /> -->
+
+    <TextView
+        android:id="@+id/fftanddistance_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dsstance" />
+
+    <TextView
+        android:id="@+id/angle__tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DistanceWithAngle " />
+
+</LinearLayout>

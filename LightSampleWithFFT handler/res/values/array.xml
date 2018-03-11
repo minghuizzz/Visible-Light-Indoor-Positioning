@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="actionList">
+        <item >慢走</item>
+        <item >快走</item>
+        <item >慢跑</item>
+        <item >快跑</item>
+        <item >原地跳高</item>
+        <item >单脚跳</item>
+        <item >跳远</item>
+        <item >双臂向背后拉伸</item>
+        <item >甩手臂</item>
+        <item >下蹲</item>
+        <item >上楼梯</item>
+        <item >下楼梯</item>
+    </string-array>
+     <string-array name="stateList">
+        <item >手拿</item>
+        <item >上衣口袋</item>
+        <item >裤子口袋</item>
+    </string-array>
+</resources>
