@@ -1,2 +1,2 @@
-# Visual-Light-Indoor-Positioning
-Visual light indoor positioning using Trilateration Algorithm
+# Visible-Light-Indoor-Positioning
+Visible light indoor positioning using Trilateration Algorithm
