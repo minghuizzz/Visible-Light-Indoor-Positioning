@@ -1,2 +1,2 @@
 # Visible-Light-Indoor-Positioning
-Visible light indoor positioning using Trilateration Algorithm
+This project research on visible light trilateration, choosing LED as light source and Android platform to implement software. 
